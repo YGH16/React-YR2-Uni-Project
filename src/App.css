@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+  background-color: #72d0f4;
+  width: 414px;
+  height: 736px;
+  padding-top: 80px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#pic{
+  padding-top:30px;
+  padding-bottom: 0px;
+}
+#location{
+  padding-top: 0px;
+}
+#search{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 3px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px;
+  border-style: solid;
+}
+#search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+#searchbar{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 300px;
+}
+#b1 {
+  height: 200px;
+  width: 207px;
+  position: relative;
+  bottom: -165px;
+  background-color: #fbca2f;
+  outline: none;
+  border: none;
+  border-left: solid black 0.5pt;
+}
+#b0{
+  height: 200px;
+  width: 207px;
+  position: relative;
+  bottom: -150px;
+  background-color: #fbca2f;
+  outline: none;
+  border: none;
+  border-right: solid black 0.5pt;
+  font-size: 25px;
+}
+#b0:hover{
+  background-color: #328ca8;
+}
+#b1:hover{
+  background-color: #328ca8;
+}
+#b2:hover{
+  background-color: #328ca8;
+}
+#b2{
+  height: 60px;
+  width: 200px;
+  background-color: #fbca2f;
+  outline: none;
+   border: solid black 0.5pt;
+}
+#b1 #b2:hover{
+  color: green;
+}
+#display-icon{
+  padding:10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 350px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-Forecast {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 450px;
+}
+
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
